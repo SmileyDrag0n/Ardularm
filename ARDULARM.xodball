@@ -1,7 +1,4 @@
 {
-  "apiKey": "739a43a0-f916-4e30-bcd9-cebf5e9674e4",
-  "description": "Library for arduino alarm\nMade by SmileyDragon",
-  "name": "ardularm",
   "patches": {
     "@/1wire-buttons": {
       "description": "Node for 4 1-wire buttons connected to analog port via same resistors",
@@ -440,8 +437,8 @@
         },
         "Bk7kq8_qS": {
           "description": "True if button is pressed",
-          "id": "Bk7kq8_qS",
           "label": "BTN 4",
+          "id": "Bk7kq8_qS",
           "position": {
             "x": 15,
             "y": 6,
@@ -469,8 +466,8 @@
         },
         "ByYN9Ud5S": {
           "description": "Voltage trigger of button 2 (a number between 0 and 1)",
-          "id": "ByYN9Ud5S",
           "label": "V2",
+          "id": "ByYN9Ud5S",
           "position": {
             "x": 6,
             "y": 2,
@@ -492,8 +489,8 @@
             "__out__": "Continuously"
           },
           "description": "Triggers new read",
-          "id": "HkIGYUd9r",
           "label": "UPD",
+          "id": "HkIGYUd9r",
           "position": {
             "x": 1,
             "y": 0,
@@ -503,8 +500,8 @@
         },
         "Hket45Id9H": {
           "description": "Voltage trigger of button 3 (a number between 0 and 1)",
-          "id": "Hket45Id9H",
           "label": "V3",
+          "id": "Hket45Id9H",
           "position": {
             "x": 10,
             "y": 2,
@@ -514,8 +511,8 @@
         },
         "HybJcLO5S": {
           "description": "True if button is pressed",
-          "id": "HybJcLO5S",
           "label": "BTN 2",
+          "id": "HybJcLO5S",
           "position": {
             "x": 7,
             "y": 6,
@@ -570,8 +567,8 @@
         },
         "Sy94cLu9B": {
           "description": "Voltage trigger of button 4 (a number between 0 and 1)",
-          "id": "Sy94cLu9B",
           "label": "V4",
+          "id": "Sy94cLu9B",
           "position": {
             "x": 14,
             "y": 2,
@@ -584,8 +581,8 @@
             "__out__": "A0"
           },
           "description": "Analog 1-wire port",
-          "id": "SyKfYUO5S",
           "label": "PORT",
+          "id": "SyKfYUO5S",
           "position": {
             "x": 0,
             "y": 0,
@@ -595,8 +592,8 @@
         },
         "SyO7cL_cr": {
           "description": "Voltage trigger of button 1 (a number between 0 and 1)",
-          "id": "SyO7cL_cr",
           "label": "V1",
+          "id": "SyO7cL_cr",
           "position": {
             "x": 3,
             "y": 2,
@@ -606,8 +603,8 @@
         },
         "r14CKUdqr": {
           "description": "True if button is pressed",
-          "id": "r14CKUdqr",
           "label": "BTN 1",
+          "id": "r14CKUdqr",
           "position": {
             "x": 3,
             "y": 6,
@@ -626,8 +623,8 @@
         },
         "r1zJ5Uu5B": {
           "description": "True if button is pressed",
-          "id": "r1zJ5Uu5B",
           "label": "BTN 3",
+          "id": "r1zJ5Uu5B",
           "position": {
             "x": 11,
             "y": 6,
@@ -640,8 +637,8 @@
             "__out__": "1"
           },
           "description": "Upper bound of voltage",
-          "id": "rJQK58ucB",
           "label": "UPPR",
+          "id": "rJQK58ucB",
           "position": {
             "x": 17,
             "y": 2,
@@ -684,6 +681,22 @@
             "units": "slots"
           },
           "type": "xod/core/less"
+        }
+      },
+      "comments": {
+        "HkgF1OKn8": {
+          "content": "GOTO [main] script to read about all news and updates",
+          "id": "HkgF1OKn8",
+          "position": {
+            "x": 21,
+            "y": 4,
+            "units": "slots"
+          },
+          "size": {
+            "height": 1,
+            "width": 4,
+            "units": "slots"
+          }
         }
       },
       "path": "@/1wire-buttons"
@@ -1109,8 +1122,8 @@
         },
         "B1_WyvvqS": {
           "description": "Fires when alarm signal is raised",
-          "id": "B1_WyvvqS",
           "label": "A",
+          "id": "B1_WyvvqS",
           "position": {
             "x": 8,
             "y": 5,
@@ -1123,8 +1136,8 @@
             "__out__": "0.3"
           },
           "description": "Lower boud of voltage when FAULT signal is raised\n(1 is 5V, 0,5 is 3.5V, 0 is 0V)",
-          "id": "BJLKa8v9H",
           "label": "FLT",
+          "id": "BJLKa8v9H",
           "position": {
             "x": 8,
             "y": -3,
@@ -1161,8 +1174,8 @@
         },
         "BkjgJwvcS": {
           "description": "Fires when fault signal is raised",
-          "id": "BkjgJwvcS",
           "label": "F",
+          "id": "BkjgJwvcS",
           "position": {
             "x": 2,
             "y": 5,
@@ -1175,8 +1188,8 @@
             "__out__": "0.7"
           },
           "description": "Upper boud of voltage when ALARM signal is raised\n(1 is 5V, 0,5 is 3.5V, 0 is 0V)",
-          "id": "Bkm4AIwcB",
           "label": "ALM",
+          "id": "Bkm4AIwcB",
           "position": {
             "x": 9,
             "y": -3,
@@ -1186,8 +1199,8 @@
         },
         "BkmgkDw5S": {
           "description": "Device normal signal",
-          "id": "BkmgkDw5S",
           "label": "NORM",
+          "id": "BkmgkDw5S",
           "position": {
             "x": 4,
             "y": 5,
@@ -1209,8 +1222,8 @@
             "__out__": "5"
           },
           "description": "Boot timer. Seconds to wait since boot to let the power normalize. 0 to turn off timer",
-          "id": "H1403LwcB",
           "label": "BT T",
+          "id": "H1403LwcB",
           "position": {
             "x": 4,
             "y": -3,
@@ -1244,8 +1257,8 @@
             "__out__": "A0"
           },
           "description": "Analog port which device is connected to",
-          "id": "HJwqnUPqB",
           "label": "PORT",
+          "id": "HJwqnUPqB",
           "position": {
             "x": 2,
             "y": -3,
@@ -1276,8 +1289,8 @@
             "__out__": "Continuously"
           },
           "description": "Read values from device",
-          "id": "Hy-jCUwcS",
           "label": "READ",
+          "id": "Hy-jCUwcS",
           "position": {
             "x": 7,
             "y": -3,
@@ -1359,8 +1372,8 @@
         },
         "SyreJDD5B": {
           "description": "Alarm signal",
-          "id": "SyreJDD5B",
           "label": "ALRM",
+          "id": "SyreJDD5B",
           "position": {
             "x": 7,
             "y": 5,
@@ -1404,8 +1417,8 @@
         },
         "rJ-e1ww5S": {
           "description": "Fault signal",
-          "id": "rJ-e1ww5S",
           "label": "FAULT",
+          "id": "rJ-e1ww5S",
           "position": {
             "x": 1,
             "y": 5,
@@ -1415,8 +1428,8 @@
         },
         "rJWxWPwqr": {
           "description": "State of booting timer\nFalse - active, True - inactive or done",
-          "id": "rJWxWPwqr",
           "label": "BOOT",
+          "id": "rJWxWPwqr",
           "position": {
             "x": 11,
             "y": 5,
@@ -1444,8 +1457,8 @@
         },
         "ryplkPwcr": {
           "description": "Fires when device state changes to normal",
-          "id": "ryplkPwcr",
           "label": "N",
+          "id": "ryplkPwcr",
           "position": {
             "x": 5,
             "y": 5,
@@ -1459,45 +1472,16 @@
     "@/buzzer": {
       "attachments": [
         {
-          "content": "{{#global}}\n{{/global}}\n\nstruct State {\n    int configuredPort = -1;\n};\n\n{{ GENERATED_CODE }}\n\nvoid evaluate(Context ctx) {\n    State* state = getState(ctx);\n    auto port = getValue<input_PORT>(ctx);\n    auto irrecv = state->irrecv;\n    if (state->configuredPort != port) {\n        state->irrecv = irrecv = new IRrecv(port);\n        irrecv->enableIRIn(); // Start the receiver\n        state->configuredPort = port;\n    }\n    if (isInputDirty<input_UPD>(ctx)) {\n        long int out = 0;\n        decode_results results;         //cache of decode of IR remoter control\n        if (irrecv->decode(&results)) {\n            out = results.value;\n            irrecv->resume();\n        }\n        emitValue<output_OUT>(ctx, out);\n    }\n} //gonna finish buzzer next time I thk",
+          "content": "\nstruct State {\n};\n\n{{ GENERATED_CODE }}\n\nvoid evaluate(Context ctx) {\n    State* state = getState(ctx);\n    auto port = getValue<input_PORT>(ctx);\n    auto freq = getValue<input_FREQ>(ctx);\n    auto time = getValue<input_TIME>(ctx);\n    if (isInputDirty<input_UPD>(ctx)) {\n        tone(port,freq,time);   // buzzer tone activation\n    }   // should add here notone() option\n    emitValue<output_PULSE>(ctx, pulse);   // not sure about *pulse*\n}",
           "encoding": "utf-8",
           "filename": "patch.cpp"
         }
       ],
-      "comments": {
-        "SyCyWKHEL": {
-          "content": "Since it's not a such needed update, it will be finished as I have some spare time.\nSome coding needs to be done, so update won't come till bout summer",
-          "id": "SyCyWKHEL",
-          "position": {
-            "x": 0,
-            "y": 2,
-            "units": "slots"
-          },
-          "size": {
-            "height": 1,
-            "width": 13,
-            "units": "slots"
-          }
-        },
-        "r1WSlYr48": {
-          "content": "NOT FINISHED YET\nChg V to +0.1.0 when re-write with buzzer",
-          "id": "r1WSlYr48",
-          "position": {
-            "x": 5,
-            "y": 1,
-            "units": "slots"
-          },
-          "size": {
-            "height": 1,
-            "width": 4,
-            "units": "slots"
-          }
-        }
-      },
       "nodes": {
         "B1JVJFBNU": {
-          "id": "B1JVJFBNU",
+          "description": "Port buzzer is connected to",
           "label": "PORT",
+          "id": "B1JVJFBNU",
           "position": {
             "x": 0,
             "y": 0,
@@ -1505,49 +1489,68 @@
           },
           "type": "xod/patch-nodes/input-port"
         },
+        "By7INtLNL": {
+          "description": "Buzzer tone frequency",
+          "label": "FREQ",
+          "id": "By7INtLNL",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "units": "slots"
+          },
+          "type": "xod/patch-nodes/input-number"
+        },
         "SJZqyYS4U": {
           "id": "SJZqyYS4U",
           "position": {
-            "x": 3,
+            "x": 2,
             "y": 1,
             "units": "slots"
           },
           "type": "xod/patch-nodes/not-implemented-in-xod"
+        },
+        "SyOdEYUE8": {
+          "description": "Time in millisecobds",
+          "label": "TIME",
+          "id": "SyOdEYUE8",
+          "position": {
+            "x": 4,
+            "y": 0,
+            "units": "slots"
+          },
+          "type": "xod/patch-nodes/input-number"
+        },
+        "ry8ZrKLNU": {
+          "description": "Fires when buzzer done beeping",
+          "label": "PULSE",
+          "id": "ry8ZrKLNU",
+          "position": {
+            "x": 2,
+            "y": 2,
+            "units": "slots"
+          },
+          "type": "xod/patch-nodes/output-pulse"
+        }
+      },
+      "comments": {
+        "r1WSlYr48": {
+          "content": "NOT FINISHED YET\nChg V to +0.1.0 when re-write with buzzer",
+          "id": "r1WSlYr48",
+          "position": {
+            "x": 8,
+            "y": 0,
+            "units": "slots"
+          },
+          "size": {
+            "height": 1,
+            "width": 4,
+            "units": "slots"
+          }
         }
       },
       "path": "@/buzzer"
     },
     "@/main": {
-      "comments": {
-        "SkoqgFHEL": {
-          "content": "Not sure about that,\nPLS CHK later",
-          "id": "SkoqgFHEL",
-          "position": {
-            "x": 20,
-            "y": 4,
-            "units": "slots"
-          },
-          "size": {
-            "height": 1,
-            "width": 4,
-            "units": "slots"
-          }
-        },
-        "ryWaTuSE8": {
-          "content": "This script is not supporting buzzer.\nNEEDS TO BE PROGD!",
-          "id": "ryWaTuSE8",
-          "position": {
-            "x": 20,
-            "y": 3,
-            "units": "slots"
-          },
-          "size": {
-            "height": 1,
-            "width": 4,
-            "units": "slots"
-          }
-        }
-      },
       "links": {
         "B1Q-hArcr": {
           "id": "B1Q-hArcr",
@@ -1885,8 +1888,8 @@
           "boundLiterals": {
             "B1x2RV3eZ": "\"FAULT   | |\""
           },
-          "id": "B1FK5RHcS",
           "label": "FAULT",
+          "id": "B1FK5RHcS",
           "position": {
             "x": -1,
             "y": 3,
@@ -1895,8 +1898,8 @@
           "type": "xod/core/constant-string"
         },
         "B1ozh0SqH": {
-          "id": "B1ozh0SqH",
           "label": "FAULT",
+          "id": "B1ozh0SqH",
           "position": {
             "x": 0,
             "y": 2,
@@ -1905,8 +1908,8 @@
           "type": "xod/patch-nodes/from-bus"
         },
         "BJAfbPP5r": {
+          "label": "BOOT",
           "id": "BJAfbPP5r",
-          "label": "BOOTY",
           "position": {
             "x": 4,
             "y": 1,
@@ -1915,8 +1918,8 @@
           "type": "xod/patch-nodes/to-bus"
         },
         "BJKQULD9S": {
-          "id": "BJKQULD9S",
           "label": "FAULT",
+          "id": "BJKQULD9S",
           "position": {
             "x": 14,
             "y": 4,
@@ -1934,8 +1937,8 @@
           "type": "xod/core/pulse-on-true"
         },
         "BkCMnRH9B": {
-          "id": "BkCMnRH9B",
           "label": "ALRM",
+          "id": "BkCMnRH9B",
           "position": {
             "x": 2,
             "y": 2,
@@ -1953,8 +1956,8 @@
             "r1wptBPqS": "16",
             "ryNhdSwqr": "\"X|\""
           },
-          "id": "BkCWUIv9B",
           "label": "FAULT",
+          "id": "BkCWUIv9B",
           "position": {
             "x": 9,
             "y": 6,
@@ -1981,8 +1984,8 @@
           "type": "xod/core/pulse-on-true"
         },
         "ByMM3AS9r": {
-          "id": "ByMM3AS9r",
           "label": "NORM",
+          "id": "ByMM3AS9r",
           "position": {
             "x": -2,
             "y": 2,
@@ -1991,8 +1994,8 @@
           "type": "xod/patch-nodes/from-bus"
         },
         "HJQqo2rcr": {
-          "id": "HJQqo2rcr",
           "label": "LCD",
+          "id": "HJQqo2rcr",
           "position": {
             "x": -1,
             "y": 5,
@@ -2001,8 +2004,8 @@
           "type": "xod-dev/text-lcd/text-lcd-i2c-16x2"
         },
         "Hkl73Cr5S": {
-          "id": "Hkl73Cr5S",
           "label": "ALRM",
+          "id": "Hkl73Cr5S",
           "position": {
             "x": 6,
             "y": 1,
@@ -2014,8 +2017,8 @@
           "boundLiterals": {
             "B1x2RV3eZ": "\"AT PULL STATION\""
           },
-          "id": "Hky1iAS9H",
           "label": "MCP",
+          "id": "Hky1iAS9H",
           "position": {
             "x": 5,
             "y": 3,
@@ -2033,8 +2036,8 @@
           "type": "xod/core/pulse-on-true"
         },
         "Hy_5lvP5S": {
-          "id": "Hy_5lvP5S",
           "label": "FAULT",
+          "id": "Hy_5lvP5S",
           "position": {
             "x": -2,
             "y": 1,
@@ -2046,8 +2049,8 @@
           "boundLiterals": {
             "B1x2RV3eZ": "\"ALARM   | |\""
           },
-          "id": "Hy_hqAS9B",
           "label": "ALRM",
+          "id": "Hy_hqAS9B",
           "position": {
             "x": 1,
             "y": 3,
@@ -2056,8 +2059,8 @@
           "type": "xod/core/constant-string"
         },
         "Hyu7h0BcB": {
-          "id": "Hyu7h0BcB",
           "label": "NORM",
+          "id": "Hyu7h0BcB",
           "position": {
             "x": 8,
             "y": 2,
@@ -2069,8 +2072,8 @@
           "boundLiterals": {
             "rygjH06LW": "\"\""
           },
-          "id": "S1jos0B9H",
           "label": "INFO ADDON",
+          "id": "S1jos0B9H",
           "position": {
             "x": 5,
             "y": 4,
@@ -2079,8 +2082,8 @@
           "type": "xod/core/select"
         },
         "SJE7LUPcH": {
-          "id": "SJE7LUPcH",
           "label": "ALRM",
+          "id": "SJE7LUPcH",
           "position": {
             "x": 14,
             "y": 1,
@@ -2107,8 +2110,8 @@
           "type": "xod/core/any"
         },
         "SJo5lDD5r": {
-          "id": "SJo5lDD5r",
           "label": "NORM",
+          "id": "SJo5lDD5r",
           "position": {
             "x": 0,
             "y": 1,
@@ -2117,8 +2120,8 @@
           "type": "xod/patch-nodes/to-bus"
         },
         "SJxP7DUDcH": {
+          "label": "BOOT",
           "id": "SJxP7DUDcH",
-          "label": "BOOTY",
           "position": {
             "x": 15,
             "y": 4,
@@ -2136,8 +2139,8 @@
             "r1wptBPqS": "16",
             "ryNhdSwqr": "\"!|\""
           },
-          "id": "Skugr8P9B",
           "label": "ALARM",
+          "id": "Skugr8P9B",
           "position": {
             "x": 9,
             "y": 3,
@@ -2176,8 +2179,8 @@
           "boundLiterals": {
             "B1x2RV3eZ": "\"NORMAL  | |      \""
           },
-          "id": "r1RSc0BqB",
           "label": "NORM",
+          "id": "r1RSc0BqB",
           "position": {
             "x": -3,
             "y": 3,
@@ -2186,8 +2189,8 @@
           "type": "xod/core/constant-string"
         },
         "rJ29xvvqH": {
-          "id": "rJ29xvvqH",
           "label": "ALRM",
+          "id": "rJ29xvvqH",
           "position": {
             "x": 2,
             "y": 1,
@@ -2196,8 +2199,8 @@
           "type": "xod/patch-nodes/to-bus"
         },
         "rJtMwLP9B": {
+          "label": "BOOT",
           "id": "rJtMwLP9B",
-          "label": "BOOTY",
           "position": {
             "x": 15,
             "y": 1,
@@ -2206,12 +2209,12 @@
           "type": "xod/patch-nodes/from-bus"
         },
         "rk9NiRS5r": {
-          "arityLevel": 3,
           "boundLiterals": {
             "rygjH06LW-$2": "\"BOOTING...\""
           },
-          "id": "rk9NiRS5r",
           "label": "STATE PROCESSOR",
+          "arityLevel": 3,
+          "id": "rk9NiRS5r",
           "position": {
             "x": -3,
             "y": 4,
@@ -2220,8 +2223,8 @@
           "type": "xod/core/select"
         },
         "ryELh0B9S": {
-          "id": "ryELh0B9S",
           "label": "FAULT",
+          "id": "ryELh0B9S",
           "position": {
             "x": 7,
             "y": 1,
@@ -2239,14 +2242,30 @@
           "type": "xod/core/boot"
         },
         "ryxceDPcB": {
-          "id": "ryxceDPcB",
           "label": "ZONE 1",
+          "id": "ryxceDPcB",
           "position": {
             "x": -2,
             "y": 0,
             "units": "slots"
           },
           "type": "@/analog-device"
+        }
+      },
+      "comments": {
+        "ryWaTuSE8": {
+          "content": "Testing buzzer support",
+          "id": "ryWaTuSE8",
+          "position": {
+            "x": 20,
+            "y": 3,
+            "units": "slots"
+          },
+          "size": {
+            "height": 1,
+            "width": 4,
+            "units": "slots"
+          }
         }
       },
       "path": "@/main"
@@ -2621,8 +2640,8 @@
       "nodes": {
         "B10WYSvqH": {
           "description": "Time STR-1 to show",
-          "id": "B10WYSvqH",
           "label": "HIDE",
+          "id": "B10WYSvqH",
           "position": {
             "x": 10,
             "y": -5,
@@ -2632,8 +2651,8 @@
         },
         "B1ejdrwqS": {
           "description": "Main string to show",
-          "id": "B1ejdrwqS",
           "label": "STR-1",
+          "id": "B1ejdrwqS",
           "position": {
             "x": 5,
             "y": -5,
@@ -2682,8 +2701,8 @@
             "__out__": "27h"
           },
           "description": "Address of LCD display",
-          "id": "H1HMuBDqH",
           "label": "ADDR",
+          "id": "H1HMuBDqH",
           "position": {
             "x": 0,
             "y": -5,
@@ -2702,8 +2721,8 @@
         },
         "HJHmQIv5r": {
           "description": "Writing on LCD done",
-          "id": "HJHmQIv5r",
           "label": "WRT",
+          "id": "HJHmQIv5r",
           "position": {
             "x": 4,
             "y": 2,
@@ -2722,8 +2741,8 @@
         },
         "HJav_HD5B": {
           "description": "Position where the symbol must be located\n",
-          "id": "HJav_HD5B",
           "label": "POS",
+          "id": "HJav_HD5B",
           "position": {
             "x": 4,
             "y": -5,
@@ -2751,8 +2770,8 @@
         },
         "S16pSUP5B": {
           "description": "Fires every time symbol on CURR changes",
-          "id": "S16pSUP5B",
           "label": "PULSE",
+          "id": "S16pSUP5B",
           "position": {
             "x": 10,
             "y": 2,
@@ -2762,8 +2781,8 @@
         },
         "S1KEdrPcr": {
           "description": "Row where the symbol must be located\n",
-          "id": "S1KEdrPcr",
           "label": "ROW",
+          "id": "S1KEdrPcr",
           "position": {
             "x": 3,
             "y": -5,
@@ -2791,8 +2810,8 @@
         },
         "SJGjBUvcS": {
           "description": "Symbol tht is currently shown, in sync with PULSE",
-          "id": "SJGjBUvcS",
           "label": "CURR",
+          "id": "SJGjBUvcS",
           "position": {
             "x": 9,
             "y": 2,
@@ -2829,8 +2848,8 @@
         },
         "SyyauSwqr": {
           "description": "Time STR-2 to show",
-          "id": "SyyauSwqr",
           "label": "SHOW",
+          "id": "SyyauSwqr",
           "position": {
             "x": 8,
             "y": -5,
@@ -2858,8 +2877,8 @@
         },
         "rJtrmUv5r": {
           "description": "Tick of a timer",
-          "id": "rJtrmUv5r",
           "label": "TICK",
+          "id": "rJtrmUv5r",
           "position": {
             "x": 12,
             "y": 2,
@@ -2878,8 +2897,8 @@
         },
         "ryNhdSwqr": {
           "description": "Blinking string to show",
-          "id": "ryNhdSwqr",
           "label": "STR-2",
+          "id": "ryNhdSwqr",
           "position": {
             "x": 6,
             "y": -5,
@@ -2889,8 +2908,8 @@
         },
         "ryPUFSv5B": {
           "description": "Whether to blink a symbol",
-          "id": "ryPUFSv5B",
           "label": "ENBL",
+          "id": "ryPUFSv5B",
           "position": {
             "x": 7,
             "y": -5,
@@ -2918,8 +2937,8 @@
         },
         "rykK7Iwcr": {
           "description": "Done pulse of SHOW delay",
-          "id": "rykK7Iwcr",
           "label": "DELAY",
+          "id": "rykK7Iwcr",
           "position": {
             "x": 11,
             "y": 2,
@@ -2929,102 +2948,10 @@
         }
       },
       "path": "@/symbol-blink"
-    },
-    "@/test": {
-      "attachments": [
-        {
-          "content": "\nstruct State {\n};\n\n{{ GENERATED_CODE }}\n\nvoid evaluate(Context ctx) {\n    //auto inValue = getValue<input_IN>(ctx);\n    //emitValue<output_OUT>(ctx, inValue);\n}\n",
-          "encoding": "utf-8",
-          "filename": "patch.cpp"
-        }
-      ],
-      "links": {
-        "H1gXqou9r": {
-          "id": "H1gXqou9r",
-          "input": {
-            "nodeId": "HkYzqjO5r",
-            "pinKey": "Bkbs7mtUr"
-          },
-          "output": {
-            "nodeId": "Skk79iOqH",
-            "pinKey": "HJU8CE2lW"
-          }
-        },
-        "HycmqoO9r": {
-          "id": "HycmqoO9r",
-          "input": {
-            "nodeId": "Byt75iOqH",
-            "pinKey": "HkXK-dGob"
-          },
-          "output": {
-            "nodeId": "HkYzqjO5r",
-            "pinKey": "SkeWYtEY8S"
-          }
-        },
-        "S1vX5iuqS": {
-          "id": "S1vX5iuqS",
-          "input": {
-            "nodeId": "SJI7co_5S",
-            "pinKey": "HkXK-dGob"
-          },
-          "output": {
-            "nodeId": "HkYzqjO5r",
-            "pinKey": "HybttEF8r"
-          }
-        }
-      },
-      "nodes": {
-        "Bk91gYSNU": {
-          "id": "Bk91gYSNU",
-          "position": {
-            "x": 9,
-            "y": 1,
-            "units": "slots"
-          },
-          "type": "xod/patch-nodes/not-implemented-in-xod"
-        },
-        "Byt75iOqH": {
-          "id": "Byt75iOqH",
-          "position": {
-            "x": 5,
-            "y": 2,
-            "units": "slots"
-          },
-          "type": "xod/debug/watch"
-        },
-        "HkYzqjO5r": {
-          "boundLiterals": {
-            "BJj5mmtUH": "D5"
-          },
-          "id": "HkYzqjO5r",
-          "position": {
-            "x": 4,
-            "y": 1,
-            "units": "slots"
-          },
-          "type": "xod-dev/dht/dht11-hygrometer"
-        },
-        "SJI7co_5S": {
-          "id": "SJI7co_5S",
-          "position": {
-            "x": 4,
-            "y": 2,
-            "units": "slots"
-          },
-          "type": "xod/debug/watch"
-        },
-        "Skk79iOqH": {
-          "id": "Skk79iOqH",
-          "position": {
-            "x": 5,
-            "y": 0,
-            "units": "slots"
-          },
-          "type": "xod/core/clock"
-        }
-      },
-      "path": "@/test"
     }
   },
-  "version": "3.0.1"
+  "version": "3.0.1",
+  "description": "Library for arduino alarm\nMade by SmileyDragon",
+  "apiKey": "739a43a0-f916-4e30-bcd9-cebf5e9674e4",
+  "name": "ardularm"
 }
