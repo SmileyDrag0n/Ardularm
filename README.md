@@ -5,4 +5,4 @@ Files:
 * ardularm.xodball - main code file for XOD
 * ardularm.ino  - main sketch file
 * ardularm.fzz - scheme of all wiring and connections in Fritzing
-### Currently development is a bit slower than regular
+### Currently further development of this project is suspended
